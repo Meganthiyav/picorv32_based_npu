@@ -1,0 +1,31 @@
+# Vivado temporary files
+.Xil/
+*.jou
+*.log
+*.pb
+*.dcp
+*.vds
+*.str
+*.backup.jou
+*.backup.log
+vivado_build/
+PICORV_32_NPU.cache/
+PICORV_32_NPU.hw/
+PICORV_32_NPU.ip_user_files/
+PICORV_32_NPU.sim/
+PICORV_32_NPU.runs/
+
+# Simulation outputs
+sim/xsim.dir/
+sim/*.log
+sim/*.jou
+sim/*.pb
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+python/mnist_data/
+
+# OS files
+.DS_Store
+Thumbs.db
