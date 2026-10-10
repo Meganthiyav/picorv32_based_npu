@@ -187,5 +187,4 @@ Targeted for the **Real Digital Spartan-7 Boolean Board (`xc7s50csga324-1`)**:
 
 
 <div align="center">
-Made for Edge AI & Reconfigurable Computing • Real Digital Spartan-7 Boolean Platform
 </div>
