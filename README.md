@@ -105,9 +105,6 @@ Measured directly on hardware running on the **Spartan-7 Boolean Board @ 100 MHz
 ---
 
 ## 🗂️ Repository Structure
-
-The codebase is organized into **three distinct, cleanly separated directories**:
-
 ```
 .
 ├── verilog/                   # Hardware Description (RTL), Constraints & Simulation
