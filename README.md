@@ -9,7 +9,7 @@
 [![Vivado](https://img.shields.io/badge/EDA-Vivado%202025.2-purple.svg?style=for-the-badge&logo=xilinx&logoColor=white)](https://www.xilinx.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-**An ultra-compact, memory-efficient Hardware INT8 Neural Processing Unit (NPU) peripheral tightly integrated with the PicoRV32 RISC-V processor on the Real Digital Spartan-7 Boolean FPGA Board.**
+**An ultra-compact, memory-efficient Hardware INT8 Neural Processing Unit (NPU) peripheral integrated with the PicoRV32 RISC-V processor on the Real Digital Spartan-7 Boolean FPGA Board.**
 
 *Accelerates MNIST handwritten digit recognition in **12,784 clock cycles (128 µs)** with live interactive touch drawing and real-time physical 7-segment display output.*
 
