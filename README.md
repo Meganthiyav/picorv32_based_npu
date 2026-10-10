@@ -173,53 +173,23 @@ Targeted for the **Real Digital Spartan-7 Boolean Board (`xc7s50csga324-1`)**:
 
 ---
 
-## ⚡ Quick Start Guide
+## ⚡Project Implementation Guide
 
-### 1. Prerequisites
-- **Vivado 2025.2** (or 2020.2+)
-- **RISC-V Toolchain:** `riscv64-unknown-elf-gcc`
-- **Python 3.10+** with `torch`, `torchvision`, `numpy`, `pyserial`, `Pillow`
+### 1. Train and Export INT8 Model
+### 2. Build RISC-V Firmware
+### 3. Build FPGA Bitstream 
+### 4. Program Spartan-7 Boolean Board
+### 5. Launch Live Touch Drawing Interface
 
-### 2. Train and Export INT8 Model
-```powershell
-cd python
-pip install -r requirements.txt
-python train_mnist_int8.py
-```
+## Real-Time Applications
 
-### 3. Build RISC-V Firmware
-```powershell
-cd c
-make
-```
+- **Handwritten Digit Recognition:** Recognizes handwritten digits in digital forms, tablets, and data-entry systems.
+- **Automatic Meter Reading:** Identifies numerical readings on electricity and water meters.
+- **Edge AI Devices:** Performs AI inference locally on embedded devices without cloud connectivity.
+- **Industrial Inspection:** Recognizes numerical labels and markings in manufacturing systems.
+- **Smart Document Processing:** Extracts handwritten digits from forms, receipts, and applications.
 
-### 4. Build FPGA Bitstream (Vivado Batch)
-```powershell
-cd verilog/scripts
-vivado -mode batch -source build_bitstream.tcl
-```
 
-### 5. Program Spartan-7 Boolean Board
-```powershell
-cd verilog/scripts
-vivado -mode batch -source program_board.tcl
-```
-
-### 6. Launch Live Touch Drawing Interface
-```powershell
-cd python
-python touch_board_bridge.py
-```
-1. Select your Spartan-7 board's COM port (e.g., `COM12`) and click **Connect to FPGA**.
-2. Draw any number ($0 \dots 9$) on the touch canvas with your finger or stylus.
-3. Watch the physical **7-segment display** on your Spartan-7 board illuminate the recognized number!
-
----
-
-## 📜 License
-Distributed under the **MIT License**. See `LICENSE` for details.
-
----
 
 <div align="center">
 Made for Edge AI & Reconfigurable Computing • Real Digital Spartan-7 Boolean Platform
