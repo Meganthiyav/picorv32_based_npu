@@ -7,7 +7,6 @@
 [![Speedup](https://img.shields.io/badge/Acceleration-497.6x%20Faster-brightgreen.svg?style=for-the-badge&logo=fastapi&logoColor=white)](#-performance--benchmark-results)
 [![Accuracy](https://img.shields.io/badge/Accuracy-95.00%25%20INT8-blue.svg?style=for-the-badge&logo=pytorch&logoColor=white)](#-neural-network-training--quantization)
 [![Vivado](https://img.shields.io/badge/EDA-Vivado%202025.2-purple.svg?style=for-the-badge&logo=xilinx&logoColor=white)](https://www.xilinx.com/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 **An ultra-compact, memory-efficient Hardware INT8 Neural Processing Unit (NPU) peripheral integrated with the PicoRV32 RISC-V processor on the Real Digital Spartan-7 Boolean FPGA Board.**
 
