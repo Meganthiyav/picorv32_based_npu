@@ -101,8 +101,6 @@ Measured directly on hardware running on the **Spartan-7 Boolean Board @ 100 MHz
 | **Model Classification** | MNIST ($784 \to 16 \to 10$) | MNIST ($784 \to 16 \to 10$) | Exact Match |
 | **Test Accuracy** | 94.96% (FP32 PyTorch) | **95.00% (INT8 Quantized)** | **+0.04% Gain** |
 | **BRAM Utilization** | 10 Blocks (ROM + RAM) | 4 Blocks (Total SoC) | **< 20% of chip BRAM** |
-| **DSP Utilization** | 0 DSP slices | **0 DSP slices** | **100% DSPs Free** |
-| **Timing Slack (WNS)** | N/A | **+0.919 ns @ 100 MHz** | **Zero Violations** |
 
 ---
 
